@@ -1,0 +1,234 @@
+/* Breakpoint */
+/* SETUP GRID ****************/
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 0;
+  }
+}
+ 
+/*
+[class*="grid-"]{
+  background: rgba(#66f, .25);
+  height: 40px;
+}
+*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  *zoom: 0;
+    margin-bottom: 10px;
+}
+ 
+.grid-1 {
+  width: 6.66667%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+.grid-2 {
+  width: 15%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+.grid-3 {
+  width: 23.33333%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+.grid-4 {
+  width: 31.66667%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+.grid-5 {
+  width: 40%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+.grid-6 {
+  width: 48.33333%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+.grid-7 {
+  width: 56.66667%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+.grid-8 {
+  width: 65%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+.grid-9 {
+  width: 73.33333%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+.grid-10 {
+  width: 81.66667%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+.grid-11 {
+  width: 90%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+.grid-12 {
+  width: 98.33333%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+ 
+@media (max-width: 992px) {
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    width: 31.66667%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+ 
+  .grid-5,
+  .grid-6,
+  .grid-7,
+  .grid-8 {
+    width: 48.33333%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+ 
+  .grid-9,
+  .grid-10,
+  .grid-11,
+  .grid-12 {
+    width: 98.33333%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+}
+@media (max-width: 768px) {
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    width: 31.66667%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+ 
+  .grid-5,
+  .grid-6 {
+    width: 48.33333%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+ 
+  .grid-7,
+  .grid-8,
+  .grid-9 {
+    width: 65%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+ 
+  .grid-10,
+  .grid-11,
+  .grid-12 {
+    width: 98.33333%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+}
+@media (max-width: 767px) {
+  .grid-1,
+  .grid-2 {
+    width: 48.33333%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+ 
+  .grid-3,
+  .grid-4,
+  .grid-5,
+  .grid-6,
+  .grid-7,
+  .grid-8,
+  .grid-9,
+  .grid-10,
+  .grid-12 {
+    width: 98.33333%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+}
+@media (max-width: 320px) {
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5,
+  .grid-6,
+  .grid-7,
+  .grid-8,
+  .grid-9,
+  .grid-10,
+  .grid-12 {
+    width: 98.33333%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+}

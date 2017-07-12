@@ -1,0 +1,145 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: #fff;
+}
+
+header .brand img{
+    height: 150px;
+    line-height: 150px;
+}
+
+header .brand h1{
+    text-shadow: 2px 0 0 white, 2px 0 0 white; 
+    color:#252525;
+    font-family: Diplomata+SC;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 17.5%;
+    line-height: 100px;
+    margin-top: 2.5%;
+}
+
+.navbar-nav
+{
+    background-color:#2980b9;
+    font-family: 'biryani' ,sans-serif;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.navbar-nav img
+{
+    width: 50px;
+}
+
+.navbar-nav > li 
+{
+    float: right;
+    width: 12.5%;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    line-height: 45px;
+    padding: ;
+    margin: 0;
+}
+
+.navbar-nav > li:hover
+{
+    background-color: #22313F;
+}
+
+.navbar-nav > li h3{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    background-color: #ecf0f1;
+    float: left;
+}
+
+.content h1 {
+    text-shadow: 2px 0 0 white, 2px 0 0 white, 2px 0 0 white;
+    text-align:center;
+    color: black;
+    line-height: 60px;
+    outline-width: 40px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.gambar {
+    border: 3px solid;
+    border-color: black;
+}
+
+#isi a {
+    text-decoration: none;
+}
+
+.content p{
+    align-content: center;
+}
+
+.sidebar
+{
+    border-top : 10px solid #3498db;
+}
+
+.sidebar .title{
+    font-family: 'biryani' ,sans-serif;
+    text-align: left;
+    color:black;
+    font-size: 17px;
+    margin: 10px 0 0 0;
+    
+}
+
+.sidebar .clearfix{
+    padding-bottom: 20px;
+    border-bottom : 1px solid #bdc3c7;
+}
+
+@media all and ( max-width :1100px){
+    header .brand{
+        text-align: center;
+        width: 100%;
+    }
+    
+    header .brand h1{
+        margin-right: 0;
+    }
+}
+
+@media all and ( max-width :992px){
+    .sidebar{
+        display: none;
+    }
+}
+
+@media all and ( max-width :700px){
+    .navbar-nav{
+        display: none;
+    }
+    header .brand h1{
+        border-bottom : 5px solid #2980b9;
+    }
+}
+
+.img-center{
+    text-align: center;
+}
